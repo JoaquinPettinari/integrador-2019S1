@@ -23,7 +23,7 @@ public class AutomotrizTest {
         motores.add(motorCarburador);
         motores.add(motorInyeccion);
         automotriz = new Automotriz();
-        //motores.add(motorExperimental); NO compila,
+        motores.add(motorExperimental);
     }
 
     @Test
